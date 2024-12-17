@@ -1,0 +1,33 @@
+{
+  "name": "mongo_express_ts_init",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon ./src/index.ts",
+    "prestart": "npx tsc",
+    "start": "npx node ./dist/index.js"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "express",
+    "typescript"
+  ],
+  "author": "Shishir Halder",
+  "license": "ISC",
+  "description": "Default nodejs backend initialization",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
